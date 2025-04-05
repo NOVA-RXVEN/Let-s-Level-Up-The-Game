@@ -47,7 +47,7 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.type == pygame.K_x):
             pygame.quit()
-            running - False
+            running = False
             
     if not won:
         keys = pygame.key.get_pressed()
